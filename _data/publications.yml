@@ -1,22 +1,68 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: Self-closing and self-healing multi-material suction cups for energy-efficient vacuum grippers
+    authors: <strong>Zhanwei Wang</strong>, Seppe Terryn, Huijiang Wang, Julie Legrand, Ali Safaei, Joost Brancart, Guy Van Assche, Bram Vanderborght
+    conference_short: Wiley
+    conference: Advanced Intelligent Systems
+    page: https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202300135
+    video: https://youtu.be/ntjHHIjvCeg?si=4v9mkOxUlbOylCuh
+    image: ./assets/img/sc2023.png
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: 3D printable crease-free origami vacuum bending actuators for soft robots
+    authors: <strong>Zhanwei Wang</strong>, et al.
+    conference_short: IEEE
+    conference: IEEE Transactions on Robotics (under review)
+    page: undefined
+    image: ./assets/img/Crease-free.png
+  
+  - title: Integrating Software-Less Reflex Mechanisms Into Soft Robots and a Versatile Gripper
+    authors: <strong>Zhanwei Wang</strong>, Chen Huaijin, Hendrik Cools, Bram Vanderborght, Seppe Terryn.
+    conference_short: IEEE
+    conference: IEEE Robotics and Automation Magazine
+    page: https://ieeexplore.ieee.org/document/10887392
+    image: ./assets/img/Multimodal_gripper.png
+
+  - title: A variable sensing range electrical impedance tomography sensor for robot electric skins
+    authors: <strong>Zhanwei Wang</strong>, Huaijin Chen, Ke Wang, Bram Vanderborght, Seppe Terryn.
+    conference_short: IEEE
+    conference: IEEE Robotics and Automation Letters
+    page: https://ieeexplore.ieee.org/document/10854644
+    image: ./assets/img/veskin.png
+
+  - title: A Structure Modality Enhanced Multimodal Imaging Method for Electrical Impedance Tomography Pressure Distribution Measurement
+    authors: Yang Wang, <strong>Zhanwei Wang</strong>, Fatma Demir, Yinxin Cai, Zijin Liu, Jing Ren, Guy Van Assche, Shengjie Ling, Bram Vanderborght, Seppe Terryn
+    conference_short: IEEE
+    conference: IEEE Transactions on Instrumentation and Measurement
+    page: https://ieeexplore.ieee.org/abstract/document/10616188
+    image: ./assets/img/huaijinEIT.png
+
+  - title: Sub-zero self-healable and fatigue resistant conductive ionoelastomers for sensorized soft pneumatic robots
+    authors: Huaijin Chen, <strong>Zhanwei Wang</strong>, Kevin Langlois, Tom Verstraten, Bram Vanderborght
+    conference_short: RSC
+    conference: Journal of Materials Chemistry A
+    page: https://pubs.rsc.org/en/content/articlelanding/2024/ta/d4ta04081c
+    image: ./assets/img/yang_hydrogel.png
+
+  - title: Self‐Regulated Self‐Healing Robotic Gripper for Resilient and Adaptive Grasping
+    authors: Huijiang Wang, Seppe Terryn, <strong>Zhanwei Wang</strong>, Guy Van Assche, Fumiya Iida, Bram Vanderborght
+    conference_short: Wiley
+    conference: Advanced Intelligent Systems
+    page: https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202300223
+    video: https://youtu.be/96Zf6kjGASw?si=f9QiXCyaIKaYF7GW
+    image: ./assets/img/shug2023.png
+    
+  - title: Fast Self-Healing at Room Temperature in Diels–Alder Elastomers
+    authors: Ali Safaei, Joost Brancart, <strong>Zhanwei Wang</strong>, Sogol Yazdani, Bram Vanderborght, Guy Van Assche, Seppe Terryn
+    conference_short: MDPI
+    conference: Polymers
+    page: https://www.mdpi.com/2073-4360/15/17/3527
+    image: ./assets/img/fastheal2023.png
+
+  - title: Topology optimized multi-material self-healing actuator with reduced out of plane deformation
+    authors: <strong>Zhanwei Wang</strong>, Seppe Terryn, Julie Legrand, Pasquale Ferrentino, Seyedreza Kashef Tabrizian, Joost Brancart, Ellen Roels, Guy Van Assche, Bram Vanderborght
+    conference_short: IROS
+    conference: IEEE/RSJ International Conference on Intelligent Robots and Systems
+    page: https://ieeexplore.ieee.org/abstract/document/9981297
+    image: ./assets/img/iroscover2022.png
+
+  

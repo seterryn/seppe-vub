@@ -1,12 +1,11 @@
-<h1 id="publications"></h1>
+<h1 id="conferences"></h1>
 
-<h2 style="margin: 30px 0px -15px;">Publications <temp style="font-size:15px;">[</temp><a href="https://scholar.google.be/citations?user=j76khOMAAAAJ&hl=zh-CN" target="_blank" style="font-size:15px;">Google Scholar</a><temp style="font-size:15px;">]</temp><temp style="font-size:15px;">[</temp><a href="https://www.researchgate.net/profile/Zhanwei-Wang-5" target="_blank" style="font-size:15px;">ResearchGate</a><temp style="font-size:15px;">]</temp></h2>
-
+<h2 style="margin: 30px 0px -15px;">Conferences & Events<temp style="font-size:15px;"></temp></h2>
 
 <div class="publications">
 <ol class="bibliography">
 
-{% for link in site.data.publications.main %}
+{% for link in site.data.conferences.main %}
 
 <li>
 <div class="pub-row">
@@ -15,8 +14,9 @@
             <abbr class="badge">{{ link.conference_short }}</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      <div class="title"><a href="{{ link.web }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
+      <div class="author">{{ link.abstract }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
     <div class="links">
@@ -27,12 +27,15 @@
       <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       {% endif %}
       {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Online Article</a>
+      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
       {% endif %}
-      {% if link.video %} 
-      <a href="{{ link.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:14px;color:#e74d3c;">Video</a>
+      {% if link.bibtex %} 
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
       {% endif %}
-      {% if link.notes %} 
+      {% if link.web %} 
+      <a href="{{ link.web }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Website</a>
+      {% endif %}
+      {% if link.notes %}
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
       {% endif %}
       {% if link.others %} 
